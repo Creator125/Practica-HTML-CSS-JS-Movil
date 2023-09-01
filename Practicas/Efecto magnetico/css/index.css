@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Sans-Serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #200121;
+}
+
+.caja{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to bottom, #00c951, #ee4c00);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  color: rgba(0, 0, 0, 0.25);
+  font-weight: 600;
+  transition: 0.1s;
+}
