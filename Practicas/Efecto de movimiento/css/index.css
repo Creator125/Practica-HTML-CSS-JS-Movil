@@ -1,0 +1,11 @@
+#poster{
+  height: 200px;
+  width: 300px;
+  transition: box-shadow 0.1s, transform 0.1s;
+  background: url('../durmiendo-en-el-espacio.png') no-repeat center;
+  background-size: cover;
+}
+
+#poster:hover{
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
+}
