@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor{
+  border: 2px solid #333;
+}
+
+.color{
+  display: table-cell;
+  width: 50px;
+  height: 50px;
+  margin: 0 1px;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+
+.clr1{
+  background: #3eb7ff;
+}
+.clr2{
+  background: #3eff9c;
+}
+.clr3{
+  background: #f9ff3e;
+}
+.clr4{
+  background: #ff096d;
+}
