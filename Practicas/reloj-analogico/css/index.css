@@ -1,0 +1,94 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #c6d8fe;
+}
+
+.correa{
+  height: 100vh;
+  width: 7.5em;
+  border: 0.12em solid #2d2d2d;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  background: radial-gradient( #42023f 2px, #ea0324 2px);
+  background-size: 1.12em 1.12em;
+  background-position: -0.32em;
+  border-top: none;
+  border-bottom: none;
+}
+
+.correa:before{
+  position: absolute;
+  content: '';
+  height: 100vh;
+  width: 1.87em;
+  background: #fd7323;
+  border: 0.12em solid #6d2800;
+  transform: translateX(-50%);
+  left: 50%;
+  border-top: none;
+  border-bottom: none;
+}
+
+.reloj{
+  height: 11.25em;
+  width: 11.25em;
+  background: #f3f3f3;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.12em #1c0937,
+            0 0 0 0.92em #e0dbe7, 
+            0 0 0 1.06em #1c0937;
+}
+
+.pin{
+  position: absolute;
+  height: 1.25em;
+  height: 1.25em;
+  background: linear-gradient( #ddecf0 0.31em, #e9f8eb 0.31em);
+  border: 0.12em solid #2e1040;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: calc(50% * 6.56em);
+}
+
+img{
+  height: 11.25em;
+}
+
+.manecillas{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  border-radius: 0.31em;
+  transform-origin: bottom;
+}
+
+.hora{
+  height: 2.5em;
+  width: 0.31em;
+  top: 3.12em;
+}
+
+.minutero{
+  height: 3.75em;
+  width: 0.31em;
+  top: 1.87em;
+}
+
+.segundero{
+  height: 4.37em;
+  width: 0.18em;
+  top: 1.25em;
+  background-color: #fc0415;
+}
